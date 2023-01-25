@@ -4,7 +4,7 @@ Python tool to test known techniques to bypass 403 and 401 HTTP responses.
 # Dependencies
 - webpackpy: https://github.com/akamhy/waybackpy
 
-# Run
+# Usage
 ```
 $ python main.py -h
 usage: main.py [-h] -u URL [-c COOKIES]
