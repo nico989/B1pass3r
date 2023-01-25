@@ -7,7 +7,7 @@ from logger import log
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description='403 and 401 Bypasses based on Known Techniques')
+        description='403 and 401 Bypasser based on Known Techniques')
     parser.add_argument('-u', '--url',
                         type=str,
                         required=True,
