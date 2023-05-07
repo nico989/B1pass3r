@@ -12,9 +12,9 @@ usage: main.py [-h] -u URL [-c COOKIES]
 403 and 401 Bypasser based on Known Techniques
 
 optional arguments:
-  -h, --help         show this help message and exit
-  -u, --url      URL to test
-  -c, --cookies  Session Cookies
+  -h, --help                     show this help message and exit
+  -u URL, --url URL              URL to test
+  -c COOKIES, --cookies COOKIES  Session Cookies
 ```
 
 # Credits
