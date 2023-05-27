@@ -197,8 +197,7 @@ class Bypass:
         log.info('Start Get Stress Test')
         threads = []
         for index in range(300):
-            t = threading.Thread(target=self._endpoint.makeRequest,
-                                 args=(index,))
+            t = threading.Thread(target=self._endpoint.makeRequest)
             threads.append(t)
             t.start()
         for thread in threads:
@@ -220,6 +219,7 @@ class Bypass:
         self._getStressTest()
         self._pathUnicodeFuzzing()
         self._localIPFuzzing()
+
 
     def __str__(self) -> str:
         return f'Bypass endpoint:{self._endpoint}'
